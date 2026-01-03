@@ -2,11 +2,6 @@
 ## Overview
 This repository contains LTspice schematics and simulations of CMOS push-pull amplifiers operating in Class A, Class B, and Class AB configurations. The designs illustrate fundamental trade-offs between linearity, efficiency, quiescent current, and distortion in analog amplifier design.
 Each amplifier was implemented and analyzed using LTspice.
-## Repository Structure
-CMOS_PushPull_Amplifiers/
-├── Class_A/   (schematic .asc, image .png)
-├── Class_B/   (schematic .asc, image .png)
-├── Class_AB/  (schematic .asc, image .png)
 
 ## Amplifier Classes
 ### Class A
@@ -31,11 +26,13 @@ AB	Good–Excellent	Moderate–High	Moderate	Low
 
 ## Tools & Concepts
 LTspice for schematic capture and transient simulation
+
 CMOS NMOS/PMOS push-pull output stages
+
 Biasing strategies and operating-region analysis
 
 ## Key Takeaways
-Biasing determines amplifier class and performance
-Class AB offers the best practical compromise for CMOS amplifiers
-Crossover distortion in Class B can be mitigated through biasing
-LTspice enables rapid evaluation of analog design trade-offs
+- Biasing determines amplifier class and performance
+- Class AB offers the best practical compromise for CMOS amplifiers
+- Crossover distortion in Class B can be mitigated through biasing
+- LTspice enables rapid evaluation of analog design trade-offs
