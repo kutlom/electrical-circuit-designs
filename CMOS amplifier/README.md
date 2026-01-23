@@ -1,4 +1,4 @@
-# CMOS Push-Pull Amplifiers (Class A, B, AB) — LTspice
+# CMOS Push-Pull Amplifiers (Class A, B, AB) — LTSpice
 ## Overview
 This repository contains LTspice schematics and simulations of CMOS push-pull amplifiers operating in Class A, Class B, and Class AB configurations. The designs illustrate fundamental trade-offs between linearity, efficiency, quiescent current, and distortion in analog amplifier design.
 Each amplifier was implemented and analyzed using LTspice.
